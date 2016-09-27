@@ -10,6 +10,7 @@
 	1.2. "source venv/bin/activate"
 	1.3. "pip install -r requirements.txt"
 2. The run the "python app.py" command from the virtual environment.
+3. Run "source deactivate" to exist virtual environment
 
 ## Usage
 1. After the application has been loaded successfully, click on the movie posters to view trailers.

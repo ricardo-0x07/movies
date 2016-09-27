@@ -13,8 +13,6 @@ app = Flask(__name__)
 fresh_tomatoes.open_movies_page(entertainment_center.movies)
 
 # default route: Movies Trailer Website home page
-
-
 @app.route('/')
 def home():
     return render_template('./home.html')
