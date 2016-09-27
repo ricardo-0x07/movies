@@ -1,6 +1,12 @@
 import webbrowser
+
+# Movie class to be used to create instance of various movies
+
+
 class Movie():
-    def __init__ (self, title, storyline, poster_image, trailer_youtube):
+
+    def __init__(self, title, storyline,
+                 poster_image, trailer_youtube):
         self.title = title
         self.storyline = storyline
         self.poster_image_url = poster_image
